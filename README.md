@@ -4,3 +4,5 @@ The algorithm here calculates the Discrete Fourier Transform (DFT) of a given di
 
 This function will only accept vector inputs that fit this length criteria.
 This algorithm takes advantage of the matrix operations that are provided in Matlab, and performs the calculations without any loops, hopefully speeding up the algorithm.
+
+UPDATE - 4/24/17: I have added a similar function for the inverse FFT. Since the output will still be a complex array, even in the time domain, you can extract the real or imaginary parts with Matlab's built-in functions: 'real' and 'imag'.
